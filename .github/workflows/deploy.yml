@@ -38,7 +38,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: slidev/dist
 
       - name: Deploy
         id: deployment
