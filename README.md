@@ -11,7 +11,7 @@ cd slidev
 npm run dev -- slides.md
 ```
 
-URL:
+Local URL:
 
 [http://localhost:3030/](http://localhost:3030/)
 
