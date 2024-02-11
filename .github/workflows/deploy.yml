@@ -31,6 +31,7 @@ jobs:
         run: npm install
 
       - name: Build
+        working-directory: ./slidev
         run: npm run build -- --base /slidev-example/
 
       - uses: actions/configure-pages@v4
