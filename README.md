@@ -17,4 +17,5 @@ Local URL:
 
 Deploy (GitHub Pages):
 
-[https://sli.dev/guide/hosting#github-pages](https://sli.dev/guide/hosting#github-pages)
+- [https://sli.dev/guide/hosting#github-pages](https://sli.dev/guide/hosting#github-pages)
+- [https://github.com/ohno/slidev-example/blob/main/.github/workflows/deploy.yml](https://github.com/ohno/slidev-example/blob/main/.github/workflows/deploy.yml)
