@@ -21,14 +21,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        with:
-            sparse-checkout: .
 
       - uses: actions/setup-node@v4
         with:
           node-version: 'lts/*'
 
       - name: Install dependencies
+        working-directory: ./slidev
         run: npm install
 
       - name: Build
